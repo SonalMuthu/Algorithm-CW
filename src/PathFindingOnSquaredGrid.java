@@ -119,30 +119,28 @@ public class PathFindingOnSquaredGrid {
                     nextNode.parent = current;
                     queue.add(nextNode);
                 }
+            }
+
+            //Checking Top Node
+            if (current.x - 1 >= 0) {
+                nextNode = gridNode[current.x - 1][current.y];
+                double newDistance = current.distance + hVDistance;
+                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
+                    nextNode.distance = newDistance;
+                    nextNode.parent = current;
+                    queue.add(nextNode);
+                }
+            }
+
+
+            if(!isManhat){
+            //checking Top Right Node
+            if (current.x - 1 >= 0 && current.y + 1 < size) {
+                nextNode = gridNode[current.x - 1][current.y + 1];
+                double newDistance = current.distance + diagonalDistance;
+                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
+                    nextNode.distance = newDistance;
+                    nextNode.parent = current;
+                    queue.add(nextNode);
+                }
             }}
-
-
-            //checking Left Node
-            if (current.y - 1 >= 0) {
-                nextNode = gridNode[current.x][current.y - 1];
-                double newDistance = current.distance + hVDistance;
-                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
-                    nextNode.distance = newDistance;
-                    nextNode.parent = current;
-                    queue.add(nextNode);
-                }
-            }
-
-
-            //checking Right Node
-            if (current.y + 1 < size) {
-                nextNode = gridNode[current.x][current.y + 1];
-                double newDistance = current.distance + hVDistance;
-                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
-                    nextNode.distance = newDistance;
-                    nextNode.parent = current;
-                    queue.add(nextNode);
-                }
-            }
-
-
