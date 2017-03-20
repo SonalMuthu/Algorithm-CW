@@ -47,7 +47,6 @@ public class Main {
 	        
 	        System.out.println("ENTER y2 FOR B > ");
 	        int Bx2 = in.nextInt();
-			
 	        System.out.println("\nENTER x1 FOR A >");
 	        int Ay1 = in.nextInt();
 	        
@@ -65,10 +64,20 @@ public class Main {
 	        System.out.println("ENTER y2 FOR B > ");
 	        int Bx2 = in.nextInt();
 			
-	        System.out.println("\nENTER x1 FOR A >");
-	        int Ay1 = in.nextInt();
+			  System.out.println("ENTER y1 fOR A > ");
+	        int Ax1 = in.nextInt();
 	        
-	        System.out.println("ENTER y1 fOR A > ");
+	        System.out.println("ENTER x2 FOR B > ");
+	        int By2 = in.nextInt();
+	        
+	        int Ax1 = in.nextInt();
+	        
+	        System.out.println("ENTER x2 FOR B > ");
+	        int By2 = in.nextInt();
+	        
+	        System.out.println("ENTER y2 FOR B > ");
+	        int Bx2 = in.nextInt();
+			  System.out.println("ENTER y1 fOR A > ");
 	        int Ax1 = in.nextInt();
 	        
 	        System.out.println("ENTER x2 FOR B > ");
