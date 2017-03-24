@@ -170,23 +170,7 @@ public class PathFindingOnSquaredGrid {
                     nextNode.distance = newDistance;
                     nextNode.parent = current;
                     queue.add(nextNode);
-                } //checking Top Right Node
-            if (current.x - 1 >= 0 && current.y + 1 < size) {
-                nextNode = gridNode[current.x - 1][current.y + 1];
-                double newDistance = current.distance + diagonalDistance;
-                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
-                    nextNode.distance = newDistance;
-                    nextNode.parent = current;
-                    queue.add(nextNode);
-                } //checking Top Right Node
-            if (current.x - 1 >= 0 && current.y + 1 < size) {
-                nextNode = gridNode[current.x - 1][current.y + 1];
-                double newDistance = current.distance + diagonalDistance;
-                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
-                    nextNode.distance = newDistance;
-                    nextNode.parent = current;
-                    queue.add(nextNode);
-                }
+         
 				 //checking Top Right Node
             if (current.x - 1 >= 0 && current.y + 1 < size) {
                 nextNode = gridNode[current.x - 1][current.y + 1];
