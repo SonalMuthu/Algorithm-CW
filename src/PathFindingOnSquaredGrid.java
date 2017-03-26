@@ -240,6 +240,34 @@ public class PathFindingOnSquaredGrid {
                     queue.add(nextNode);
                 }
 				
+					       nextNode = gridNode[current.x - 1][current.y + 1];
+                double newDistance = current.distance + diagonalDistance;
+                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
+                    nextNode.distance = newDistance;
+                    nextNode.parent = current;
+                    queue.add(nextNode);
+                }
+				       nextNode = gridNode[current.x - 1][current.y + 1];
+                double newDistance = current.distance + diagonalDistance;
+                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
+                    nextNode.distance = newDistance;
+                    nextNode.parent = current;
+                    queue.add(nextNode);
+                }
+					       nextNode = gridNode[current.x - 1][current.y + 1];
+                double newDistance = current.distance + diagonalDistance;
+                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
+                    nextNode.distance = newDistance;
+                    nextNode.parent = current;
+                    queue.add(nextNode);
+                }
+				       nextNode = gridNode[current.x - 1][current.y + 1];
+                double newDistance = current.distance + diagonalDistance;
+                if (!nextNode.blocked && !nextNode.visited && nextNode.distance > newDistance) {
+                    nextNode.distance = newDistance;
+                    nextNode.parent = current;
+                    queue.add(nextNode);
+                }
 				
 			     } if(!isManhat){
             //checking Top Right Node
