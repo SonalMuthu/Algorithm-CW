@@ -56,8 +56,6 @@ public class Main {
 			
 	        System.out.println("ENT
 	        int By2 = in.nextInt();
-			
-	        
 			    
 	        
 	        int Ax1 = in.nextInt();
