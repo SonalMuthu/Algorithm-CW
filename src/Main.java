@@ -69,24 +69,6 @@ public class Main {
 	        System.out.println("ENT
 	        int By2 = in.nextInt();
 			
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			    
-	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			
 	        
 	        int Ax1 = in.nextInt();
 	        
