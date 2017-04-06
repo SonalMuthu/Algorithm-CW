@@ -62,7 +62,40 @@ public class PathFindingOnSquaredGrid {
         start = new Node(startx, starty);
         end = new Node(endx, endy);
         // The grid that is used to store nodes
-        gr
+        gridNode = new Node[size][size];
+        // Creating nodes and finding blocked cells in matrix and mapping accordingly to our grid
+        for (int i = 0; i < size; ++i) {
+            for (int j = 0; j < size; ++j) {
+            	gridNode[i][j] = new Node(i, j);
+                if (matrix[i][j] == false) {
+
+                	gridNode[i][j].blocked = true;
+
+
+                }
+            }
+			public ArrayList<Node> distance(boolean[][] matrix, int startx, int starty, int endx, int endy,double diagonalDistance,String name,boolean isManhat) {
+
+        int size = matrix.length;
+   
+        start = new Node(startx, starty);
+        end = new Node(endx, endy);
+        // The grid that is used to store nodes
+        gridNode = new Node[size][size];
+        // Creating nodes and finding blocked cells in matrix and mapping accordingly to our grid
+        for (int i = 0; i < size; ++i) {
+            for (int j = 0; j < size; ++j) {
+            	gridNode[i][j] = new Node(i, j);
+                if (matrix[i][j] == false) {
+
+                	gridNode[i][j].blocked = true;
+
+
+                }
+            }
+		public ArrayList<Node> distance(boolean[][] matrix, int startx, int starty, int endx, int endy,double diagonalDistance,String name,boolean isManhat) {
+
+        int size = matrix.length;
    
         start = new Node(startx, starty);
         end = new Node(endx, endy);
