@@ -102,8 +102,7 @@ public class Main {
 	        int Bx2 = in.nextInt();
 			
 	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			
+	        int By2 = in.nextInt();    
 	        System.out.println("ENTER x2 FOR B > ");
 	        int By2 = in.nextInt();
 	        
