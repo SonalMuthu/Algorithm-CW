@@ -112,8 +112,6 @@ public class PathFindingOnSquaredGrid {
 
 		public ArrayList<Node> distance(boolean[][] matrix, int startx, int starty, int endx, int endy,double diagonalDistance,String name,boolean isManhat) {
 
-        int size = matrix.length;
-   
         start = new Node(startx, starty);
         end = new Node(endx, endy);
         // The grid that is used to store nodes
