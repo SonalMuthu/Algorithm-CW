@@ -107,13 +107,6 @@ public class PathFindingOnSquaredGrid {
             	gridNode[i][j] = new Node(i, j);
                 if (matrix[i][j] == false) {
 
-                	gridNode[i][j].blocked = true;
-
-
-		public ArrayList<Node> distance(boolean[][] matrix, int startx, int starty, int endx, int endy,double diagonalDistance,String name,boolean isManhat) {
-
-
-
             }
         }
 		
