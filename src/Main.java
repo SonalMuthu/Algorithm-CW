@@ -1,6 +1,6 @@
 
 /**
- * Created by Sonal  on 4/1/2017.
+ * Created by Sonal baba on 4/1/2017.
  */
 
 import java.util.ArrayList;
@@ -31,115 +31,12 @@ public class Main {
 	        System.out.println("ENTER y1 fOR A > ");
 	        int Ax1 = in.nextInt();
 	        
-	       
-	        
-	        int Ax1 = in.nextInt();
-	        
 	        System.out.println("ENTER x2 FOR B > ");
 	        int By2 = in.nextInt();
 	        
 	        System.out.println("ENTER y2 FOR B > ");
 	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			
-	            
 	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	      
-	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			
-	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			
-	          
-	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();
-			
-	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENT
-	        int By2 = in.nextInt();    
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	     
-	        int Bx2 = in.nextInt();
-			
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        int Ax1 = in.nextInt();
-	        
-	        System.out.println("ENTER x2 FOR B > ");
-	        int By2 = in.nextInt();
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        int Bx2 = in.nextInt();
-			
-	        
-	        System.out.println("ENTER y2 FOR B > ");
-	        in
 	        Stopwatch time = new Stopwatch();
 	        
 	        //ArrayList<PathFindingOnSquaredGrid.Node> path1 = new PathFindingOnSquaredGrid().distance(randomlyGenMatrix, Ax1, Ay1, Bx2, By2,grid.Manhattan(),"MANHATTAN",true);
